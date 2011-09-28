@@ -1,6 +1,4 @@
 # encoding: utf-8
-require 'fileutils'
-
 module Kitabu
   module Templates
     TEMPLATES_ROOT = File.join(Kitabu::Base::GEM_ROOT, 'templates')
